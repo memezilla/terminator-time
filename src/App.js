@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div onClick={this.props.onClick}>We have manufactured <strong>{this.props.clicks}</strong> Terminators.
-         Let's make some more by clicking here... </div>
+         Let&apos;s make some more by clicking here... </div>
     );
   }
 }
